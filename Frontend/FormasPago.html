@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrar empleado</title>
+    <link rel="stylesheet" href="../css/font-awesome.min.css">
+    <link rel="stylesheet" href="Diseño/estilosregistro.css">
+</head>
+
+<body>
+    <form class="formulario" action="../backend/controladores/Agregarformapago.php" method="POST">
+        <h1>Agregue forma de pago</h1>
+        <div class="contenedor">
+
+            <div class="input-contenedor">
+                <i class="fa fa-user icon " aria-hidden="true"></i>
+                <input type="text" name ="nombre" placeholder="Tarjeta de Debito o Tarjeta de Credito">
+            </div>
+            <div class="input-contenedor">
+                <i class="fa fa-user icon " aria-hidden="true"></i>
+                <input type="number" name="cuenta"placeholder="Numero de cuenta">
+            </div>
+
+            <div class="input-contenedor">
+                <i class="fa fa-key icon" aria-hidden="true"></i>
+                <input type="text" name="vencimineto" placeholder="Fecha de vencimiento ">
+            </div>
+
+            <div class="input-contenedor">
+                <i class="fa fa-key icon" aria-hidden="true"></i>
+                <input type="text" name="opcion" placeholder="Visa, Paypal, MasterCard">
+            </div>
+
+            <div class="input-contenedor">
+                <i class="fa fa-key icon" aria-hidden="true"></i>
+                <input type="number" name="cvv" placeholder="CVV">
+            </div>
+
+            <input type="submit" value="Registar método de pago" class="boton">
+
+        </div>
+
+
+
+    </form>
+</body>
+
+</html>

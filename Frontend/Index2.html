@@ -1,0 +1,323 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baron Boots</title>
+   
+    <link rel="stylesheet" href="../css/font-awesome.min.css">
+    <link rel="stylesheet" href="Diseño/estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body>
+    <div class="padre">
+        <header class="header">
+            <div class="menu">
+                <div class="logo">
+                    <a href="Index2.html">Baron Boots </a>
+
+                </div>
+                <div class="inicio-sesion">
+                    <a href="iniciarsesion.html">Iniciar sesión </a>
+                </div>
+                <div class="registro">
+                    <a href="registrate.html">Registrate </a>
+                </div>
+
+
+                <div class="busqueda">
+                    <form action="busqueda.php" method=post>
+                        <input type="text" name="palabra" id="">
+                        <input class="boton" type="submit" value="Aceptar">
+
+
+                    </form>
+                </div>
+                <div class="carrito"> <a href="index.php"><i class="fa fa-shopping-cart" aria-hidden="true"></i> </a>
+                </div>
+
+            </div>
+
+
+
+            <div class="categorias">
+                <nav class="nav">
+                    <ul class="menu2">
+                        <li><a href="#"> Categorias </a>
+                            <ul class="submenu">
+                                <li><a href="niño.html">Niño</a></li>
+                                <li><a href="niña.html">Niña</a></li>
+                                <li><a href="dama.html">Dama</a></li>
+                                <li><a href="caballero.html">Caballero</a></li>
+                            </ul>
+                        </li>
+
+                        <li><a href="#"> Accesorios </a>
+                            <ul class="submenu">
+                                <li><a href="cinturones.html">Cinturones</a></li>
+                                <li><a href="carteras.html">Carteras</a></li>
+
+
+                            </ul>
+                        </li>
+                        <li><a href="sombreros.html"> Sombreros</a></li>
+                        <li><a href="#"> Métodos de pago</a>
+                            <ul class="submenu">
+                                <li><a href="#">Tarjeta de devito</a></li>
+                                <li><a href="#">Pago en efectivo</a></li>
+
+                            </ul>
+                        </li>
+                        <li><a href="ayuda.html"><i class="fa fa-question" aria-hidden="true"></i> Ayuda </a></li>
+                    </ul>
+                </nav>
+
+            </div>
+        </header>
+        <section class="banner">
+            <div class="banner1">
+
+            </div>
+
+        </section>
+
+        <section class="section">
+            <div class="container mt-5">
+                <div class="row" style="justify-content: center;">
+                
+                <div class="card m-4" style="width: 18rem;">
+                        <form id="formulario" name="formulario" method="post" action="cart.php">
+                        <input name="precio" type="hidden" id="precio" value="569" />
+                        <input name="titulo" type="hidden" id="titulo" value="articulo 1" />
+                        <input name="cantidad" type="hidden" id="cantidad" value="1" class="pl-2" />
+                        <img src="../Imagenes/1034.jpeg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                        <h5 class="card-title">Cinturón cafe tallado</h5>
+                                        <p class="card-text">Cinturón cafe con tallado artesanal- Precio $569</p>
+                                        <button class="btn btn-primary" type="submit" ><i class="fas fa-shopping-cart"></i> Añadir al carrito</button>
+                                </div>
+                        </form>
+                </div>
+                
+                
+                
+                <div class="card m-4" style="width: 18rem;">
+                        <form id="formulario" name="formulario" method="post" action="cart.php">
+                        <input name="precio" type="hidden" id="precio" value="1499" />
+                        <input name="titulo" type="hidden" id="titulo" value="articulo 2" />
+                        <input name="cantidad" type="hidden" id="cantidad" value="1" class="pl-2" />
+                        <img src="../Imagenes/1001.jpeg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                        <h5 class="card-title">Sombrero de piel negro</h5>
+                                        <p class="card-text">Sombrero de piel negro con trenza - Precio $1499</p>
+                                        <button class="btn btn-primary" type="submit" ><i class="fas fa-shopping-cart"></i> Añadir al carrito</button>
+                                </div>
+                        </form>
+                </div>
+                
+                
+                <div class="card m-4" style="width: 18rem;">
+                        <form id="formulario" name="formulario" method="post" action="cart.php">
+                        <input name="precio" type="hidden" id="precio" value="799" />
+                        <input name="titulo" type="hidden" id="titulo" value="articulo 3" />
+                        <input name="cantidad" type="hidden" id="cantidad" value="1" class="pl-2" />
+                        <img src="../Imagenes/1032.jpeg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                        <h5 class="card-title">Cinturón de serpiente negro</h5>
+                                        <p class="card-text">Cinturón de serpiente negro con bordado - Precio $799</p>
+                                        <button class="btn btn-primary" type="submit" ><i class="fas fa-shopping-cart"></i> Añadir al carrito</button>
+                                </div>
+                        </form>
+                </div>
+                
+                 <div class="card m-4" style="width: 18rem;">
+                        <form id="formulario" name="formulario" method="post" action="cart.php">
+                        <input name="precio" type="hidden" id="precio" value="590" />
+                        <input name="titulo" type="hidden" id="titulo" value="articulo 2" />
+                        <input name="cantidad" type="hidden" id="cantidad" value="1" class="pl-2" />
+                        <img src="../Imagenes/1033.jpeg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                        <h5 class="card-title">Cinturón cafe tallado</h5>
+                                        <p class="card-text">Cinturón cafe tallado con colores - Precio $590</p>
+                                        <button class="btn btn-primary" type="submit" ><i class="fas fa-shopping-cart"></i> Añadir al carrito</button>
+                                </div>
+                        </form>
+                </div>
+                <div class="card m-4" style="width: 18rem;">
+                    <form id="formulario" name="formulario" method="post" action="cart.php">
+                    <input name="precio" type="hidden" id="precio" value="629" />
+                    <input name="titulo" type="hidden" id="titulo" value="articulo 2" />
+                    <input name="cantidad" type="hidden" id="cantidad" value="1" class="pl-2" />
+                    <img src="../Imagenes/1034.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                    <h5 class="card-title">Cinturón cafe tallado</h5>
+                                    <p class="card-text">Cinturón cafe tallado a mano- Precio $629</p>
+                                    <button class="btn btn-primary" type="submit" ><i class="fas fa-shopping-cart"></i> Añadir al carrito</button>
+                            </div>
+                    </form>
+                </div>
+                <div class="card m-4" style="width: 18rem;">
+                    <form id="formulario" name="formulario" method="post" action="cart.php">
+                    <input name="precio" type="hidden" id="precio" value="999" />
+                    <input name="titulo" type="hidden" id="titulo" value="articulo 2" />
+                    <input name="cantidad" type="hidden" id="cantidad" value="1" class="pl-2" />
+                    <img src="../Imagenes/1072.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                    <h5 class="card-title">Paquete Sombrero-Cinturón</h5>
+                                    <p class="card-text">Sombrero y cinturón color canela - Precio $999</p>
+                                    <button class="btn btn-primary" type="submit" ><i class="fas fa-shopping-cart"></i> Añadir al carrito</button>
+                            </div>
+                    </form>
+                </div>
+                <div class="card m-4" style="width: 18rem;">
+                    <form id="formulario" name="formulario" method="post" action="cart.php">
+                    <input name="precio" type="hidden" id="precio" value="699" />
+                    <input name="titulo" type="hidden" id="titulo" value="articulo 2" />
+                    <input name="cantidad" type="hidden" id="cantidad" value="1" class="pl-2" />
+                    <img src="../Imagenes/1400.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                    <h5 class="card-title">Bota de piel negra</h5>
+                                    <p class="card-text">Bota de piel negra con tubo - Precio $699</p>
+                                    <button class="btn btn-primary" type="submit" ><i class="fas fa-shopping-cart"></i> Añadir al carrito</button>
+                            </div>
+                    </form>
+                </div>
+                <div class="card m-4" style="width: 18rem;">
+                    <form id="formulario" name="formulario" method="post" action="cart.php">
+                    <input name="precio" type="hidden" id="precio" value="999" />
+                    <input name="titulo" type="hidden" id="titulo" value="articulo 2" />
+                    <input name="cantidad" type="hidden" id="cantidad" value="1" class="pl-2" />
+                    <img src="../Imagenes/1073.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                    <h5 class="card-title">Paquete Sombrero-Cinturón</h5>
+                                    <p class="card-text">Sombrero color gris y cinturón color café - Precio $999</p>
+                                    <button class="btn btn-primary" type="submit" ><i class="fas fa-shopping-cart"></i> Añadir al carrito</button>
+                            </div>
+                    </form>
+                </div>
+                <div class="card m-4" style="width: 18rem;">
+                    <form id="formulario" name="formulario" method="post" action="cart.php">
+                    <input name="precio" type="hidden" id="precio" value="999" />
+                    <input name="titulo" type="hidden" id="titulo" value="articulo 2" />
+                    <input name="cantidad" type="hidden" id="cantidad" value="1" class="pl-2" />
+                    <img src="../Imagenes/1074.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                    <h5 class="card-title">Paquete Sombrero-Cinturón</h5>
+                                    <p class="card-text">Sombrero colo canela y cinturón color café - Precio $999</p>
+                                    <button class="btn btn-primary" type="submit" ><i class="fas fa-shopping-cart"></i> Añadir al carrito</button>
+                            </div>
+                    </form>
+                </div>
+                <div class="card m-4" style="width: 18rem;">
+                    <form id="formulario" name="formulario" method="post" action="cart.php">
+                    <input name="precio" type="hidden" id="precio" value="499" />
+                    <input name="titulo" type="hidden" id="titulo" value="articulo 2" />
+                    <input name="cantidad" type="hidden" id="cantidad" value="1" class="pl-2" />
+                    <img src="../Imagenes/1401.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                    <h5 class="card-title">Bota de piel infantil</h5>
+                                    <p class="card-text">Bota de piel infantil con diseño - Precio $499</p>
+                                    <button class="btn btn-primary" type="submit" ><i class="fas fa-shopping-cart"></i> Añadir al carrito</button>
+                            </div>
+                    </form>
+                </div>
+                <div class="card m-4" style="width: 18rem;">
+                    <form id="formulario" name="formulario" method="post" action="cart.php">
+                    <input name="precio" type="hidden" id="precio" value="499" />
+                    <input name="titulo" type="hidden" id="titulo" value="articulo 2" />
+                    <input name="cantidad" type="hidden" id="cantidad" value="1" class="pl-2" />
+                    <img src="../Imagenes/1403.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                    <h5 class="card-title">Bota de piel infantil</h5>
+                                    <p class="card-text">Bota de piel infantil color mostaza - Precio $499</p>
+                                    <button class="btn btn-primary" type="submit" ><i class="fas fa-shopping-cart"></i> Añadir al carrito</button>
+                            </div>
+                    </form>
+                </div>
+                <div class="card m-4" style="width: 18rem;">
+                    <form id="formulario" name="formulario" method="post" action="cart.php">
+                    <input name="precio" type="hidden" id="precio" value="890" />
+                    <input name="titulo" type="hidden" id="titulo" value="articulo 2" />
+                    <input name="cantidad" type="hidden" id="cantidad" value="1" class="pl-2" />
+                    <img src="../Imagenes/1460.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                    <h5 class="card-title">Bota de piel con refuerzo</h5>
+                                    <p class="card-text">Bota de piel con refuerzo color Camel - Precio $890</p>
+                                    <button class="btn btn-primary" type="submit" ><i class="fas fa-shopping-cart"></i> Añadir al carrito</button>
+                            </div>
+                    </form>
+                </div>
+                <div class="card m-4" style="width: 18rem;">
+                    <form id="formulario" name="formulario" method="post" action="cart.php">
+                    <input name="precio" type="hidden" id="precio" value="990" />
+                    <input name="titulo" type="hidden" id="titulo" value="articulo 2" />
+                    <input name="cantidad" type="hidden" id="cantidad" value="1" class="pl-2" />
+                    <img src="../Imagenes/1567.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                    <h5 class="card-title">Bota Vaquera de piel</h5>
+                                    <p class="card-text">Bota Vaquera de piel negro con diseño - Precio $990</p>
+                                    <button class="btn btn-primary" type="submit" ><i class="fas fa-shopping-cart"></i> Añadir al carrito</button>
+                            </div>
+                    </form>
+                </div>
+                
+                
+                
+                </div>
+                </div>
+
+
+        </section>
+        <section class="nosotros">
+            <div class="lg"> <img src="../Imagenes/Logo.png" width="300px" height="300px">
+            </div>
+            <div class="Cn">
+
+                <div class="conocenos">
+                    <h2>Sobre nosotros</h2>
+                    <h3>Somos una empresa con mas de 25 años de experienia en el mercado.
+                        Te inivtamos a visitarnos y vivir la experiencia Baron Boots.
+                        Tenemos para ti botas y botines de alta calidad en piel para toda la familia.
+                        Estamos para servirte, bendiciones.
+                    </h3>
+
+                </div>
+                <div class="contactanos">
+                    <div>
+                        <h2>Contactanos</h2>
+                        <a href=#><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+                        <a href=#><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+                        <a href=#><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                        <a href=#><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
+                    </div>
+
+
+                </div>
+
+
+        </section>
+
+
+
+        </section>
+
+        <footer class="footer">
+            <article class="pie">
+                <a href="">Aviso de privacidad</a>
+            </article>
+        </footer>
+
+
+    </div>
+
+</body>
+
+</html>

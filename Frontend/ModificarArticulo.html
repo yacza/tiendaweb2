@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inventario</title>
+    <link rel="stylesheet" href="../css/font-awesome.min.css">
+    <link rel="stylesheet" href="Diseño/estilosregistro.css">
+</head>
+<body>
+    <form class="formulario" action="../backend/controladores/ModificarArticulo.php" method="POST">
+        <h1>Modificar articulo</h1>
+        <div class="contenedor">
+
+            <div class="input-contenedor">
+                <i class="fa fa-user icon " aria-hidden="true"></i>
+                <input type="text" name ="id" placeholder="ID Articulo">
+            </div>
+            <div class="input-contenedor">
+                <i class="fa fa-user icon " aria-hidden="true"></i>
+                <input type="text" name="nombre" placeholder="Nombre" disabled>
+            </div>
+
+            <div class="input-contenedor">
+                <i class="fa fa-key icon" aria-hidden="true"></i>
+                <input type="text" name="descripcion" placeholder="Descripción">
+            </div>
+
+            <div class="input-contenedor">
+                <i class="fa fa-key icon" aria-hidden="true"></i>
+                <input type="text" name="marca" placeholder="Marca" disabled>
+            </div>
+
+            <div class="input-contenedor">
+                <i class="fa fa-key icon" aria-hidden="true"></i>
+                <input type="text" name="precio" placeholder="Precio">
+            </div>
+
+            <div class="input-contenedor">
+                <i class="fa fa-envelope-o icon" aria-hidden="true"></i>
+                <input type="text" name="unidad" placeholder="Unidad" disabled>
+            </div>
+            <div class="input-contenedor">
+                <i class="fa fa-key icon" aria-hidden="true"></i>
+                <input type="text" name="existencias" placeholder="Existencias">
+            </div>
+            <input type="submit" value="Modificar" class="boton">
+            <p>
+                <input type="radio" name="" id="" required="true">
+                He revisado la información y es correcta.
+
+            </p>
+            <p>Otras acciones</p>
+            <P><a class="link" href="ArticuloInv.html">Agregar</a></P>
+            <P><a class="link" href="EliminarArticulo.html">Eliminar</a></P>
+            <P><a class="link" href="ConsultaArticulo.html">Consultar</a></P>
+</body>
+</html>
